@@ -1,20 +1,30 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Minimal Starter with Salesforce Lightning Web Components
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
 yarn install
+```
+
+Compile the Lightning Web Component Configuration
+```bash
+yarn build-lwc
+```
+
+## Configure LWC
+
+To add LWC from the lightning base components, you can import them in src/index.js, for example to include the lightning-button, add:
+```
+import Button from 'lightning/button';
+
+customElements.define('lightning-button', Button.CustomElementConstructor);
+```
+- After adding the component compile the LWC configuration again:
+```bash
+yarn build-lwc
 ```
 
 ## Development Server
@@ -22,13 +32,6 @@ yarn install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
 yarn dev
 ```
 
@@ -37,30 +40,14 @@ yarn dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
 yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
 yarn preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 
 
