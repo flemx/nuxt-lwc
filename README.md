@@ -1,6 +1,6 @@
 # Nuxt 3 Minimal Starter with Salesforce Lightning Web Components
 
-<img src="readme-screenshot.png" style="height:100px;width:auto" />
+<img src="readme-screenshot.png" style="height:400px;width:auto" />
 
 ## Setup
 
