@@ -52,11 +52,12 @@ yarn preview
 
 
 
-####    LWC in Vue
+####    Helpful URLs
 
-- How to setup base components:
-[Title](https://salesforce.stackexchange.com/questions/323613/lightning-open-source-use-of-base-components)
+How to setup base components:
+- [LWC Open Source Installtion Guide with Webpack](https://lwc.dev/guide/install#via-webpack)
+- [stackexchange explanation](https://salesforce.stackexchange.com/questions/323613/lightning-open-source-use-of-base-components)
 
-[Title](https://salesforce.stackexchange.com/questions/340594/lwc-build-files-explaination)
 
-- Disable SSR due to bug:  [Title](https://github.com/lit/lit/discussions/2259)
+Disable SSR due to bug:  
+- [Github Issue Discussion](https://github.com/lit/lit/discussions/2259)
